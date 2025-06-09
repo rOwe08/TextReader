@@ -32,11 +32,17 @@ A simple and efficient desktop application for reading and searching large text 
 
 ## Where to find the build
 
+The executable file can be found in:
+
+- `Build.zip/net8.0-windows/TextReader.exe`
+
+or 
+
 After building the project (via Visual Studio or `dotnet build`), the executable file can be found in:
 
 - `TextReader/bin/Release/net8.0-windows/TextReader.exe` (for Release build)
 - `TextReader/bin/Debug/net8.0-windows/TextReader.exe` (for Debug build)
-
+- 
 ## Usage
 - **Load text:** Use the menu to load from a file, URL, or generate random text.
 - **Search:** Press Ctrl+F to open the search box. Use F3/Shift+F3 to navigate results.
