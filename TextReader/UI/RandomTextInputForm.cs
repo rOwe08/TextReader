@@ -1,5 +1,6 @@
 using System;
 using System.Windows.Forms;
+using TextReader.Models;
 
 namespace TextReader.UI
 {
@@ -34,12 +35,12 @@ namespace TextReader.UI
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(79, 13);
-            this.numericUpDown1.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
-            this.numericUpDown1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            this.numericUpDown1.Maximum = new decimal(new int[] { TextReaderConfig.MaxLineCount, 0, 0, 0 });
+            this.numericUpDown1.Minimum = new decimal(new int[] { TextReaderConfig.MinLineCount, 0, 0, 0 });
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 23);
             this.numericUpDown1.TabIndex = 1;
-            this.numericUpDown1.Value = new decimal(new int[] { 200, 0, 0, 0 });
+            this.numericUpDown1.Value = new decimal(new int[] { TextReaderConfig.DefaultLineCount, 0, 0, 0 });
             // 
             // button1
             // 

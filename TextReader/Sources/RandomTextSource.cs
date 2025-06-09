@@ -49,12 +49,8 @@ namespace TextReader.Sources
         /// <returns>A random string of alphanumeric characters.</returns>
         private string GenerateRandomLine()
         {
-            // Define character set for random text generation
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-            // Generate random length between 10 and 100 characters
-            int length = _random.Next(10, 100);
-            // Create random string by selecting random characters from the set
-            return new string(Enumerable.Repeat(chars, length)
+            int length = _random.Next(TextReaderConfig.MinRandomLineLength, TextReaderConfig.MaxRandomLineLength);
+            return new string(Enumerable.Repeat(TextReaderConfig.RandomTextChars, length)
                 .Select(s => s[_random.Next(s.Length)]).ToArray());
         }
     }
