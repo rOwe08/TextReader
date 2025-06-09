@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextReader", "TextReader.csproj", "{BAF23C9A-136C-4342-8D2F-D0B130A57D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextReader.Tests", "..\TextReader.Tests\TextReader.Tests.csproj", "{584FFAA1-6D9B-8E04-E687-D48E63C836BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAF23C9A-136C-4342-8D2F-D0B130A57D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF23C9A-136C-4342-8D2F-D0B130A57D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF23C9A-136C-4342-8D2F-D0B130A57D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF23C9A-136C-4342-8D2F-D0B130A57D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584FFAA1-6D9B-8E04-E687-D48E63C836BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584FFAA1-6D9B-8E04-E687-D48E63C836BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584FFAA1-6D9B-8E04-E687-D48E63C836BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584FFAA1-6D9B-8E04-E687-D48E63C836BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D57F160-FB04-43F7-8CDA-BB0D04A77B12}
+	EndGlobalSection
+EndGlobal
